@@ -38,14 +38,14 @@ color=#ebdbb2
 background=#052442
 
 [pacman-updates]
-command=/home/user/Scripts/i3blocks/arch-update
+command=/home/julian/Scripts/i3blocks/arch-update
 markup=pango
 interval=1800
 QUIET=false
 WATCH=^linux.* ^pacman.*
 BASE_COLOR=#5FFF5F
 UPDATE_COLOR=#FFFF85
-LABEL= 
+LABEL=  
 
 # Volume indicator
 #
@@ -54,8 +54,8 @@ LABEL=
 # See the script for details.
 
 [volume]
-label=   
-command=/home/user/Scripts/i3blocks/volume-pulseaudio 
+label=  ﱯ 
+command=/home/julian/Scripts/i3blocks/volume-pulseaudio 
 interval=1
 signal=1
 DEFAULT_COLOR="#FFA252"
@@ -68,15 +68,15 @@ MUTED_COLOR="#FF0000"
 #
 # The type defaults to "mem" if the instance is not specified.
 [memory]
-command=/home/user/Scripts/i3blocks/memory
-label= 
+command=/home/julian/Scripts/i3blocks/memory
+label=   
 color=#52aeff
 border=#52aeff
 separator=true
 interval=30
 
 #[memory]
-#command=/home/user/Scripts/i3blocks/memory
+#command=/home/julian/Scripts/i3blocks/memory
 #label=SWAP
 #instance=swap
 #separator=false
@@ -88,8 +88,8 @@ interval=30
 # The script may be called with a optional argument to set the alert
 # (defaults to 10 for 10%).
 [disk]
-label=  
-command=/home/user/Scripts/i3blocks/disk
+label=  
+command=/home/julian/Scripts/i3blocks/disk
 #DIR=/mnt/data
 interval=30
 
@@ -118,8 +118,8 @@ interval=5
 # The script may be called with -w and -c switches to specify thresholds,
 # see the script for details.
 [cpu_usage]
-command=/home/user/Scripts/i3blocks/cpu_usage
-label= 
+command=/home/julian/Scripts/i3blocks/cpu_usage
+label=  
 interval=1
 color=#dfd932
 border=#bfb912
